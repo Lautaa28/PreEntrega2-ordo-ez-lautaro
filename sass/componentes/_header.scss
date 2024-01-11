@@ -1,8 +1,8 @@
     /*HEADER*/
-    .barrasup{background-color: black;}
+    .barrasup{background-color: $color-secundary;}
 
     .titulo{
-        background-color: black;
+        background-color: $color-secundary;
         width: auto;
         height: 100px;
         display: flex;
@@ -10,7 +10,7 @@
         text-align: center;
         align-items: center;}
 
-    .letrastitu{color: whitesmoke; 
+    .letrastitu{color: $color-primary; 
         text-align: center;
         display: flex;}
 
@@ -22,7 +22,7 @@
             justify-content: center;
             }
             
-            header nav ul li{background-color: grey;
+            header nav ul li{background-color: $color-button;
             height: 20px;
             width: 150px;
             display: flex;
@@ -33,7 +33,7 @@
             
             
             li a{text-decoration:none;
-            color: whitesmoke;
+            color:$color-primary;
             list-style: none;
             font-size: 10px;
             }
@@ -46,8 +46,8 @@
                 background-size:cover;
                 max-width:100%;}
                 
-            .subtitulo2{color: whitesmoke;
-                background-color: black;
+            .subtitulo2{color: $color-primary;
+                background-color: $color-secundary;
                 width: auto;
                 height: 150px;
                 display: flex;

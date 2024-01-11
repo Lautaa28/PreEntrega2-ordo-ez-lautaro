@@ -1,5 +1,5 @@
                 /*MAIN*/
-                .separadores{ color: black;
+                .separadores{ color: $color-secundary;
                     font-size: 20px;
                     display: flex;
                     justify-content: center;}
@@ -17,7 +17,7 @@
                     
                     
                     
-                    .tarjetaind{border: solid 1px black;
+                    .tarjetaind{border: solid 1px $color-secundary;
                     border-radius: 5px;
                 display: grid;
                 width: 150px;
@@ -33,10 +33,10 @@
                     
                     
                     main article a{text-decoration:none;
-                        color: black;
+                        color: $color-secundary;
                         list-style: none;
                         font-size:10px ;
-                        background-color: grey;
+                        background-color: $color-button;
                         border-radius: 10px;}
     
     /*tarjetas segunda pagina*/
@@ -56,12 +56,12 @@ padding-right: 15px;
     .panel{display: grid;
 grid-column: span 2;
 font-size: 20px;
-border: 1px solid gray;
+border: 1px solid $color-button;
 
 }  
 
 
-    .tarjeta{border: solid 1px black;
+    .tarjeta{border: solid 1px $color-secundary;
         border-radius: 5px;}
 
     .ropaimg{width: 100%;
@@ -73,10 +73,10 @@ border: 1px solid gray;
     .pie p{text-align: 30px;}
     
     article a{text-decoration:none;
-        color: whitesmoke;
+        color: $color-primary;
         list-style: none;
         font-size:10px ;
-        background-color: grey;
+        background-color: $color-button;
     border-radius: 10px;}
     
     .indpag{font-size: 40px;
@@ -109,9 +109,9 @@ padding: 20px;}
         /*desktop chico*/
         @media(min-width:1200px){
             /*-----header-----*/
-            .barrasup{background-color: black;}
+            .barrasup{background-color: $color-secundary;}
             .titulo{
-                background-color: black;
+                background-color: $color-secundary;
                 width: auto;
                 height: 300px;
                 display: flex;
@@ -120,7 +120,7 @@ padding: 20px;}
                 align-items: center;
             }
             
-            .letrastitu{color: whitesmoke; 
+            .letrastitu{color: $color-primary; 
             text-align: center;
             display: flex;
             }
@@ -139,7 +139,7 @@ padding: 20px;}
             
             
             /*subportada*/
-            .subtitulo{color: whitesmoke;
+            .subtitulo{color: $color-primary;
             }
             
             header nav ul{ 
@@ -150,7 +150,7 @@ padding: 20px;}
             justify-content: center;
             }
             
-            header nav ul li{background-color: grey;
+            header nav ul li{background-color: $color-button;
             height: 50px;
             width: 150px;
             display: flex;
@@ -161,15 +161,15 @@ padding: 20px;}
             
             
             li a{text-decoration:none;
-            color: whitesmoke;
+            color: $color-primary;
             list-style: none;
             font-size: 15px;
             }
             
             .letrasboton{ font-size: 2rem;}
         
-            .subtitulo2{color: whitesmoke;
-                background-color: black;
+            .subtitulo2{color: $color-primary;
+                background-color: $color-secundary;
                 height: 400px;
                 display: flex;
                 text-align: center;
@@ -184,17 +184,17 @@ padding: 20px;}
             /*------main------*/
         
             /*cuerpo*/
-            .separadores{ color: black;
+            .separadores{ color: $color-secundary;
                 font-size: 3rem;
                 display: flex;
                 justify-content: center;
             padding-top: 45px;}
                 
                 main a{text-decoration:none;
-                color: black;
+                color: $color-secundary;
                 list-style: none;
                 font-size:30px ;
-                background-color: grey;
+                background-color: $color-button;
                 border-radius: 10px;}
         
         
@@ -211,7 +211,7 @@ padding: 20px;}
                 
                 
                 
-                .tarjetaind{border: solid 1px black;
+                .tarjetaind{border: solid 1px $color-secundary;
                 border-radius: 5px;
             display: grid;
             width: 250px;
@@ -227,10 +227,10 @@ padding: 20px;}
                 
                 
                 main article a{text-decoration:none;
-                    color: black;
+                    color: $color-secundary;
                     list-style: none;
                     font-size:30px ;
-                    background-color: grey;
+                    background-color: $color-button;
                     border-radius: 10px;
                 }
         
@@ -244,7 +244,7 @@ padding: 20px;}
                 padding-right: 50px;
                 padding-left: 50px;
                 gap: 50px;
-            background-color: black;
+            background-color: $color-secundary;
             width: auto;
         height: 400px;}
                 
@@ -252,9 +252,9 @@ padding: 20px;}
                 
                 
                 
-                .footer{color: whitesmoke;}
+                .footer{color: $color-primary;}
                 
-                .letrasfoo{color: whitesmoke;
+                .letrasfoo{color: $color-primary;
                 font-size: 22px;}
                 .precio{font-size:25px;}
             
@@ -265,9 +265,9 @@ padding: 20px;}
     
     @media(min-width:1550px){
         /*-----header-----*/
-        .barrasup{background-color: black;}
+        .barrasup{background-color: $color-secundary;}
         .titulo{
-            background-color: black;
+            background-color: $color-secundary;
             width: auto;
             height: 400px;
             display: flex;
@@ -276,7 +276,7 @@ padding: 20px;}
             align-items: center;
         }
         
-        .letrastitu{color: whitesmoke; 
+        .letrastitu{color: $color-primary; 
         text-align: center;
         display: flex;
         }
@@ -296,7 +296,7 @@ padding: 20px;}
         
         
         /*subportada*/
-        .subtitulo{color: whitesmoke;
+        .subtitulo{color: $color-primary;
         }
         
         header nav ul{ 
@@ -307,7 +307,7 @@ padding: 20px;}
         justify-content: center;
         }
         
-        header nav ul li{background-color: grey;
+        header nav ul li{background-color: $color-button;
         height: 50px;
         width: 150px;
         display: flex;
@@ -318,15 +318,15 @@ padding: 20px;}
         
         
         li a{text-decoration:none;
-        color: whitesmoke;
+        color: $color-primary;
         list-style: none;
         font-size: 20px;
         }
         
         .letrasboton{ font-size: 2rem;}
     
-        .subtitulo2{color: whitesmoke;
-            background-color: black;
+        .subtitulo2{color: $color-primary;
+            background-color: $color-secundary;
             height: 400px;
             display: flex;
             text-align: center;
@@ -341,17 +341,17 @@ padding: 20px;}
         /*------main------*/
     
         /*cuerpo*/
-        .separadores{ color: black;
+        .separadores{ color: $color-secundary;
             font-size: 4rem;
             display: flex;
             justify-content: center;
         padding-top: 45px;}
             
             main a{text-decoration:none;
-            color: black;
+            color: $color-secundary;
             list-style: none;
             font-size:30px ;
-            background-color: grey;
+            background-color: $color-button;
             border-radius: 10px;}
     
     
@@ -368,7 +368,7 @@ padding: 20px;}
             
             
             
-            .tarjetaind{border: solid 1px black;
+            .tarjetaind{border: solid 1px $color-secundary;
             border-radius: 5px;
         display: grid;
         width: 350px;
@@ -384,10 +384,10 @@ padding: 20px;}
             
             
             main article a{text-decoration:none;
-                color: black;
+                color: $color-secundary;
                 list-style: none;
                 font-size:30px ;
-                background-color: grey;
+                background-color: $color-button;
                 border-radius: 10px;
             }
     
@@ -401,16 +401,16 @@ padding: 20px;}
             padding-right: 90px;
             padding-left: 90px;
             gap: 200px;
-        background-color: black;
+        background-color: $color-secundary;
     height: 400px;}
             
             .subtitufoo{font-size: 3rem;}
             
             
             
-            .footer{color: whitesmoke;}
+            .footer{color: $color-primary;}
             
-            .letrasfoo{color: whitesmoke;
+            .letrasfoo{color: $color-primary;
             font-size: 2rem;}
             .precio{font-size:25px;}
         
@@ -427,7 +427,7 @@ padding: 20px;}
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    border: 1px solid gray;
+    border: 1px solid $color-button;
     height: 100%;
     width: auto;
     }
